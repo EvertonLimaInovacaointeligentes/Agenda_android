@@ -3,7 +3,7 @@ package br.com.alura.agenda.modelo;
 import java.io.Serializable;
 
 /**
- * Created by edwin on 24/07/2017.
+ * Criado por Everton Lima em 30/01/2018.
  */
 
 public class Aluno implements Serializable

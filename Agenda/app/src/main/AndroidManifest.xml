@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.alura.agenda">
+    <!--Sistema Desenvolvido para estudo Everton Lima (81)9 9231-6097
+    Esse Sistema foi desenvolvido para estudo e aprimoramento do android.
+    Código comentado explicando cada funcionalidade
+    -->
+    <!--Esse use-permission serve como solicitação que a aplicação android faz
+    para o sistema operacional para nesse caso abaixo liberar o acesso a chamada de ligação
+    do telefone.
+    -->
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ListaAlunos">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FormularioActivity">
+
+        </activity>
+    </application>
+
+</manifest>

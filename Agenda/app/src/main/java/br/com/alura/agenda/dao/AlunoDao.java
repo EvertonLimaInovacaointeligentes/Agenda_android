@@ -13,7 +13,7 @@ import java.util.List;
 import br.com.alura.agenda.modelo.Aluno;
 
 /**
- * Created by edwin on 24/07/2017.
+ * Created by Everton Lima on 30/01/2018.
  */
 
 public class AlunoDao extends SQLiteOpenHelper
